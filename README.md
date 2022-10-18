@@ -2,9 +2,9 @@
 Website ini dibuat untuk memenuhi UTS mata kuliah pemrograman web
 
 -------------------------------------------------------------------------------------------------------
-Nama  : Bagas Ahmad Sadewa
-NIM   : 20051204016
-Kelas : TI 2020 B
+Nama  : Bagas Ahmad Sadewa <br>
+NIM   : 20051204016 <br>
+Kelas : TI 2020 B <br>
 
 Klik link berikut
 https://github.com/Bagasahmd/Eco-restaurant
