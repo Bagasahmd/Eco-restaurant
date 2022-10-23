@@ -12,7 +12,7 @@
     <meta name="author" content="" />
     <link rel="shortcut icon" href="images/favicon.png" type="" />
 
-    <title>About | Eco Restaurant</title>
+    <title>Contact Us | Eco Restaurant</title>
 
     <!-- bootstrap core css -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -37,9 +37,7 @@
 
   <body class="sub_page">
     <div class="hero_area">
-      <div class="bg-box">
-        <body style="background-color: #342215"></body>
-      </div>
+      <div style="background-color: #342215" class="bg-box"></div>
       <!-- header section strats -->
       <header class="header_section">
         <div class="container">
@@ -60,14 +58,14 @@
                 <li class="nav-item">
                   <a class="nav-link" href="menu.html">Menu</a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="book.html">Book Table </a>
+                </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span> </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="book.html">Book Table</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="contacts.html">Contact </a>
+                  <a class="nav-link" href="contacts.html">Contact <span class="sr-only">(current)</span> </a>
                 </li>
               </ul>
               <div class="user_option">
@@ -88,40 +86,44 @@
       <!-- end header section -->
     </div>
 
-    <!-- about section -->
-
-    <section class="about_section layout_padding" style="background-color: #ffffff; color: #342215">
+    <!-- book section -->
+    <section class="book_section layout_padding-top layout_padding-bottom">
       <div class="container">
+        <div class="heading_container">
+          <h2>Contact Us</h2>
+          <h6>Lebih dekat dengan menghubungi kami</h6>
+        </div>
         <div class="row">
           <div class="col-md-6">
-            <div class="img-box">
-              <img src="images/urban.svg" alt="" />
+            <div class="form_container">
+              <form action="">
+                <div>
+                  <input type="text" class="form-control" placeholder="Nama" />
+                </div>
+                <div>
+                  <input type="text" class="form-control" placeholder="Nomor HP/WA" />
+                </div>
+                <div>
+                  <input type="email" class="form-control" placeholder="E-mail" />
+                </div>
+                <div>
+                  <input type="text" class="form-control" placeholder="Isi Pesan" />
+                </div>
+                <div class="btn_box">
+                  <button>Kirim</button>
+                </div>
+              </form>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="detail-box">
-              <div class="heading_container">
-                <h2>About Eco Restaurant</h2>
-              </div>
-              <p>
-                Eco Restaurant adalah pilihan tempat makan terbaik yang menyediakan berbagai menu khas Indonesia. Disajikan dengan citarasa nusantara yang terasa nikmat di lidah orang Indonesia. Kami berdiri sejak tahun 1998 dan terus
-                mempertahankan kualitas rasa masakan kami. Kami juga menjamin kenyamanan anda selama di restaurant kami. Mari makan bersama keluarga kesayangan anda di salah satu restaurant terbaik di kota Surabaya.
-              </p>
+          <div class="col-md-6 mx-auto">
+            <div class="text-center">
+              <img src="images/contact.svg" alt="" height="350px" />
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section style="text-align: center; background-color: #ffffff; color: #342215" class="about_section">
-      <h1>Lokasi Eco Restaurant <br /><br /></h1>
-      <!--Google map-->
-      <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 500px">
-        <iframe src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border: 0" allowfullscreen></iframe>
-      </div>
-      <!--Google Maps-->
-    </section>
-
-    <!-- end about section -->
+    <!-- end book section -->
 
     <!-- footer section -->
     <footer class="footer_section">
